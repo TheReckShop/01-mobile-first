@@ -17,6 +17,7 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+	/*max-width: 100%*/
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -55,6 +56,7 @@
 }
 .icon-minus:before {
 	content: "\e90c";
+	width: 1000px;
 }
 .icon-cross:before {
 	content: "\e90d";
