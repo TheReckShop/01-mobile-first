@@ -4,12 +4,6 @@ img {
     max-width: 100%;
 }
 
-.icon-menu {
-    display: inline;
-    float: right;
-    font-size: 2em;
-}
-
 body {
     line-height: 1.5;
     font-size: 100%;
