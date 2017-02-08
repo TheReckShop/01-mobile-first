@@ -50,6 +50,13 @@
   text-decoration: none;
 }
 
+.main-nav > ul > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main nav should be all on one row, with padding spaced better for a larger screen.
