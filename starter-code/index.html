@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Blog</title>
   <!-- : Add a meta tag to properly set the viewport and initial scale -->
-  <meta name ="viewport" content="device-width, initial-scale=1">
+  <meta name="viewport" content="device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- REVIEW: Icon Fonts - Lets talk about why and how to use them best! -->
   <link rel="stylesheet" href="styles/icons.css">
@@ -23,8 +24,8 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here. -->
-      <div class="icon-menu">
-      </div>
+
+      <span class="icon-menu"></span>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
@@ -39,8 +40,10 @@
         <header>
           <h1>Title</h1>
           <div class="byline">
-            By <address><a href="">Author Name</a></address>
-            published <time pubdate datetime="2000-01-01">Publish Time</time>
+            By
+            <address><a href="">Author Name</a></address>
+            published
+            <time pubdate datetime="2000-01-01">Publish Time</time>
           </div>
         </header>
         <section class="article-body"></section>

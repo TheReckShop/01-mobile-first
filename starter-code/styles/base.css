@@ -1,29 +1,13 @@
 /* TODO: Add a rule for images, so they never exceed their container's width. */
-[class^="icon-"], [class*=" icon-"] {
-    /*max-width: 100%;*/
+
+img {
+    max-width: 100%;
 }
+
 .icon-menu {
     display: inline;
     float: right;
     font-size: 2em;
-}
-
-.main-nav > ul > li {
-  display: inline;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media only screen and (min-width: 750px) {
-    .icon-menu {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 750px) {
-    .main-nav {
-        display: none;
-    }
 }
 
 body {
