@@ -56,11 +56,16 @@
     }
     .main-nav ul {
         display: block;
+        width: 100%;
+        text-align: center;
     }
     .main-nav li {
-      display: inline-block;
+        display: inline-block;
+        width: 20%;
     }
 }
+
+
 
 
 /* TODO: Now add styles for how things should look on a larger screen:
