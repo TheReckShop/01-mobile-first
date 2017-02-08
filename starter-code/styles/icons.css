@@ -41,6 +41,7 @@
 }
 .icon-menu:before {
 	content: "\e902";
+  float: right;
 }
 .icon-link:before {
 	content: "\e903";
